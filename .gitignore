@@ -1,0 +1,11 @@
+/Temp
+/Library
+/apk
+/ab
+/UnityPackageManager
+/Assets/StreamingAssets/*
+/Assets/ClientApp/BuildResources/*
+OutputAssetbundle/*
+*.csproj
+*.vs
+*.sln

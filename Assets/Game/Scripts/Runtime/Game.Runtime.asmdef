@@ -1,0 +1,9 @@
+{
+    "name": "Game.Runtime",
+    "references": [
+        "GameFramework",
+        "UnityGameFramework.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
