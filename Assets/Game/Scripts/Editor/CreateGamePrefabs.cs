@@ -6,7 +6,7 @@ namespace Game.Editor
 {
     internal static class CreateGamePrefabs
     {
-        [MenuItem("Game Framework/CreateGamePrefabs", false, 10)]
+        [MenuItem("Game/CreateGamePrefabs", false, 10)]
         private static void CreateGamePrefab()
         {
             GameObject game = new GameObject("[Game]");
