@@ -40,6 +40,7 @@ namespace Game.Editor
 
         public static void OnWillCreateAsset(string path)
         {
+            
             Debug.Log("OnWillCreateAsset " + path);
             if (OnCreateAsset != null)
                 OnCreateAsset.Invoke();

@@ -2,7 +2,8 @@
     "name": "Game.Runtime",
     "references": [
         "GameFramework",
-        "UnityGameFramework.Runtime"
+        "UnityGameFramework.Runtime",
+        "GamePlugins"
     ],
     "includePlatforms": [],
     "excludePlatforms": []

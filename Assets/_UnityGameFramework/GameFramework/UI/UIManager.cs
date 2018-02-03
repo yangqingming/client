@@ -657,6 +657,7 @@ namespace GameFramework.UI
             }
 
             CloseUIForm(uiForm, userData);
+
         }
 
         /// <summary>

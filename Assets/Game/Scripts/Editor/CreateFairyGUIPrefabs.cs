@@ -6,6 +6,7 @@ using System.IO;
 using GameFramework;
 using System;
 using System.Linq;
+using Game.Runtime;
 
 namespace Game.Editor
 {
@@ -94,7 +95,7 @@ namespace Game.Editor
                     }
                     if (!PrefabNames.Contains(prefabName))
                         PrefabNames.Add(prefabName);
-
+                    prefab.GetOrAddComponent<UILogic>();
                     FairyGUIAssets assets = prefab.GetOrAddComponent<FairyGUIAssets>();
                     assets.AllBytes = assets.AllBytes.Where(a => a != null).ToList();
                     assets.AllTexture2D = assets.AllTexture2D.Where(a => a != null).ToList();

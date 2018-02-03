@@ -12,6 +12,9 @@ namespace Game.Runtime
         {
             base.OnEnter(procedureOwner);
 
+            int id = ClientApp.UI.OpenUIForm(AssetUtility.GetUIPath("Basics"), "UI");
+            ClientApp.UI.CloseUIForm(id);
+            id = ClientApp.UI.OpenUIForm(AssetUtility.GetUIPath("Basics"), "UI");
             Debug.Log("进入编辑器资源模式");
         }
 
