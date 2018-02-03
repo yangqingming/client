@@ -5,6 +5,7 @@ using UnityEditor;
 using System.IO;
 using GameFramework;
 using System;
+using System.Linq;
 
 namespace Game.Editor
 {
@@ -13,8 +14,19 @@ namespace Game.Editor
         static CreateFairyGUIPrefabs()
         {
             EditorApplication.update += Update;
+            RespectReadOnly.OnCreateAsset += deleyCreatePrefabs;
+            RespectReadOnly.OnMoveAsset += deleyCreatePrefabs;
+            RespectReadOnly.OnSaveAsset += deleyCreatePrefabs;
+            RespectReadOnly.OnDeleteAsset += deleyCreatePrefabs;
         }
 
+        static void deleyCreatePrefabs()
+        {
+            EditorApplication.delayCall = delegate
+            {
+                CreatePrefabs();
+            };
+        }
 
         public static void OnPostprocessAllAssets(
            String[] importedAssets,
@@ -22,18 +34,7 @@ namespace Game.Editor
            String[] movedAssets,
            String[] movedFromAssetPaths)
         {
-            List<string> importedKeys = new List<string>() { "Assets/Script" };
-            for (int i = 0; i < importedAssets.Length; i++)
-            {
-                for (int j = 0; j < importedKeys.Count; j++)
-                {
-                    if (importedAssets[i].Contains(importedKeys[j]))
-                    {
-                        PlayerPrefs.SetInt("ImportScripts", 1);
-                        return;
-                    }
-                }
-            }
+            PlayerPrefs.SetInt("ImportScripts", 1);
         }
 
         private static void Update()
@@ -41,18 +42,17 @@ namespace Game.Editor
             bool importScripts = Convert.ToBoolean(PlayerPrefs.GetInt("ImportScripts", 1));
             if (importScripts && !EditorApplication.isCompiling)
             {
-                OnUnityScripsCompilingCompleted();
+                OnUnityAssetsCompilingCompleted();
                 importScripts = false;
                 PlayerPrefs.SetInt("ImportScripts", 0);
                 EditorApplication.update -= Update;
             }
         }
 
-        private static void OnUnityScripsCompilingCompleted()
+        private static void OnUnityAssetsCompilingCompleted()
         {
-            Debug.Log("Unity Scrips Compiling completed.");
+            CreatePrefabs();
         }
-
 
         private static string resPath = "Game/BuildResources/UI/Res/"; //输出目录
         private static string OutPrefabsPath = "Game/BuildResources/UI/Prefabs/"; //输出目录
@@ -63,7 +63,7 @@ namespace Game.Editor
                 Directory.CreateDirectory(OutPrefabsPath);
 
             string[] files = Directory.GetFiles(Utility.Path.GetCombinePath(Application.dataPath, resPath), "*.*", SearchOption.TopDirectoryOnly);
-
+            List<string> PrefabNames = new List<string>();
             for (int i = 0; i < files.Length; ++i)
             {
                 string file = files[i];
@@ -92,8 +92,13 @@ namespace Game.Editor
                     {
                         prefab = AssetDatabase.LoadAssetAtPath<GameObject>(OutPrefabPathName);
                     }
+                    if (!PrefabNames.Contains(prefabName))
+                        PrefabNames.Add(prefabName);
 
                     FairyGUIAssets assets = prefab.GetOrAddComponent<FairyGUIAssets>();
+                    assets.AllBytes = assets.AllBytes.Where(a => a != null).ToList();
+                    assets.AllTexture2D = assets.AllTexture2D.Where(a => a != null).ToList();
+                    assets.AllAudioClip = assets.AllAudioClip.Where(a => a != null).ToList();
                     if (extension == ".bytes")
                     {
                         TextAsset textAsset = AssetDatabase.LoadAssetAtPath<TextAsset>(assetpath);
@@ -114,8 +119,26 @@ namespace Game.Editor
 
                     }
                 }
+                
             }
 
+            files = Directory.GetFiles(Utility.Path.GetCombinePath(Application.dataPath, OutPrefabsPath), "*.*", SearchOption.TopDirectoryOnly);
+
+            for (int i = 0; i < files.Length; ++i)
+            {
+                string file = files[i];
+                string resFolder = "Assets/";
+                int pos = file.IndexOf(resFolder);
+                string assetpath = file.Substring(pos);
+                string extension = Path.GetExtension(assetpath);
+                if (extension.CompareTo(".prefab") == 0)
+                {
+                    string name = Path.GetFileNameWithoutExtension(assetpath);
+
+                    if (!PrefabNames.Contains(name))
+                        File.Delete(file);
+                }
+            }
             AssetDatabase.Refresh();
         }
     }
