@@ -23,7 +23,7 @@ namespace Game.Runtime
                     }
                 }
             }
-            else if (type == typeof(Texture))
+            else if (type == typeof(Texture2D) || type == typeof(Texture))
             {
                 for (int i = 0; i < fairyGUIAssets.AllTexture2D.Count; ++i)
                 {
