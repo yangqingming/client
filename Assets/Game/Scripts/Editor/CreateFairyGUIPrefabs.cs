@@ -18,12 +18,16 @@ namespace Game.Editor
             TextureImporter textureImporter = assetImporter as TextureImporter;
             if (textureImporter != null)
             {
-                textureImporter.textureType = TextureImporterType.Sprite;
-                textureImporter.mipmapEnabled = false;
-                TextureImporterSettings tis = new TextureImporterSettings();
-                textureImporter.ReadTextureSettings(tis);
-                tis.ApplyTextureType(TextureImporterType.Sprite);
-                textureImporter.SetTextureSettings(tis);
+                if (this.assetPath.Contains("Game/BuildResources/UI/Res"))
+                {
+                    textureImporter.textureType = TextureImporterType.Sprite;
+                    textureImporter.mipmapEnabled = false;
+                    textureImporter.spriteImportMode = SpriteImportMode.Multiple;
+                    TextureImporterSettings tis = new TextureImporterSettings();
+                    textureImporter.ReadTextureSettings(tis);
+                    tis.ApplyTextureType(TextureImporterType.Sprite);
+                    textureImporter.SetTextureSettings(tis);
+                }
             }
         }
 
@@ -78,13 +82,12 @@ namespace Game.Editor
                 };
                 EditorApplication.delayCall += func;
             }
-                
         }
 
         private static string resPath = "Assets/Game/BuildResources/UI/Res/"; //输出目录
         private static string OutPrefabsPath = "Assets/Game/BuildResources/UI/Prefabs/"; //输出目录
 
-        [MenuItem("Game/CreateFairyGUIPrefabs", false, 10)]
+        //[MenuItem("Game/CreateFairyGUIPrefabs", false, 11)]
         private static void CreatePrefabs(string[] Paths)
         {
             if (!Directory.Exists(OutPrefabsPath))

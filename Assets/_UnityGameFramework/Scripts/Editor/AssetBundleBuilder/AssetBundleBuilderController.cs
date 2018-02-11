@@ -828,7 +828,7 @@ namespace UnityGameFramework.Editor.AssetBundleTools
                 m_BuildReport.LogError("Build AssetBundles for '{0}' failure.", buildTarget.ToString());
                 return;
             }
-
+            
             m_BuildReport.LogInfo("Unity build AssetBundles for '{0}' complete.", buildTarget.ToString());
 
             // Process AssetBundles

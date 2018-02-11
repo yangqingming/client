@@ -8,7 +8,7 @@ namespace Game.Runtime
     {
         private void Awake()
         {
-            Stage.inst.gameObject.transform.SetParent(gameObject.transform.parent);
+            Stage.Instantiate();
         }
         // Use this for initialization
         void Start()
