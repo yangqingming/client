@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="Models/monster/item_qifushen/qifusheng.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_ba_01/monster_ba_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_baigunv_01/monster_baigunv_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_baize_01/monster_baize_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_banruo_01/monste_banruo_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_boss_bazhidashe/boss_baqidashe.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_boss_jiuweihu/boss_jiuweihu.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_boss_zhizhu/boss_zhizhu.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_choushizhinv_01/monster_choushizhinv_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_daocaoren_01/monste_daocaoren_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_daochengsizhong_01/monster_daochengsizhong_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_denglonggui_01/monster_denglonggui_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_dengtaigui_01/monste_dengtaigui_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_fenfuchafu_01/Materials/monste_fenfuchafu_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_fenfuchafu_01/monste_fenfuchafu_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_fenfuchafu_01/monste_fenfuchafu_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_fenfuchafu_01/monste_fenfuchafu_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_guanghu_01/monster_guanhu_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_guihuo_01/monster_guihuo_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_heizhong_01/monster_heizhong_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_hetong_01/monster_hetong_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_hongyaoguai_01/Materials/monster_hongyaoguai_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_hongyaoguai_01/monster_hongyaoguai_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_hongyaoguai_01/monster_hongyaoguai_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_hongyaoguai_01/monster_hongyaoguai_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_hongyeshou_01/monste_hongyeshou_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_huatougui_01/monster_huatougui_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_hudiejing_01/monster_hudiejing_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_jinling_01/monster_jinling_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_jiutuntongzi_01/monster_jiutuntongzi_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_jue_01/monster_jue_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_limao_01/monster_limao_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_lingyanji_01/monster_lingyanji_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_maoyao_01/monste_maoyao_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_maoyou_01/monster_maoyou_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_mumei_01/monste_mumei_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_qiaoji_01/monster_qiaoji_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_qingxingdeng_01/monster_qingxingdeng_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_qintianfang_01/monster_qintianfang_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_quanshen_01/Materials/monster_quanshen_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_quanshen_01/monster_quanshen_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_quanshen_01/monster_quanshen_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_quanshen_01/monster_quanshen_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_renyu_01/monste_renyu_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_sashanv_01/monster_sashanv_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_shalugui_01/monster_shalugui_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_shangjing_01/monster_shangjing_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_shengling_01/monste_shengling_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_shouwu_01/monster_shouwu_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_shuoshuling_01/monster_shuoshuling_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_tangsanxiaoseng_01/monster_tangsanxiaoseng_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_taohuayao_01/monster_taohuayao_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_wenchefei_01/monster_wenchefei_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_xuenv_01/monste_xuenv_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yanmo_01/monster_yanmo_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yanqiouguai_01/monster_yanqiouguai_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yatiangou_01/monster_yatiangou_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yixienamei_01/monster_yixienamei_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_youchizi_01/monste_youchizi_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yujiangxiaoseng_01/monster_yujiangxiaoseng_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yujuchong_01/monster_yujuchong_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yunv_01/monster_yunv_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_yuzaoqian_01/monster_yuzaoqian.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_zhangyuzi_01/monster_zhangyuzi_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/monster/monster_zhixingjue_01/monster_zhixingjue_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/Prefabs/chuxinzhe_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/Prefabs/chuxinzhe_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/Prefabs/chuxinzhe_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/chuxinzhe_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/chuxinzhe_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/chuxinzhe_02.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/chuxinzhe_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/chuxinzhe_03.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/chuxinzhe_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/Materials/chuxinzhe_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/Materials/weapon.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/chuxinzhe_01/Materials/xinshou_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_anpeiqingming/Materials/role_anpeiqingming.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_anpeiqingming/Materials/zhandou_anpeiqingming.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_anpeiqingming/zhandou_anpeiqingming.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_anpeiqingming/zhandou_anpeiqingming_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_anpeiqingming/zhandou_anpeiqingming_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_anpeiqingming/zhandou_anpeiqingming_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_anpeiqingming/zhandou_anpeiqingming_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_01/Materials/role_guiwuzhe_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_01/role_guiwuzhe_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_01/role_guiwuzhe_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_01/role_guiwuzhe_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_01/role_guiwuzhe_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_03/Materials/guiwuzhe_03.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_03/Materials/guiwuzhe_weapon_03.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_guiwuzhe_03/role_guiwuzhe_03.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_01/Materials/weapon.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_01/Materials/xinshou_01_gaitoufa.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_01/xinshou_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_03/Materials/xinshou_03.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_03/Materials/zhandou_xinshou_02.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_03/xinshou_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_03/xinshou_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_03/xinshou_03.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_xinshou_03/xinshou_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_01/Materials/yingyangshi_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_01/role_yinyangshi_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_01/yinyangshi_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_02/Materials/role_yinyangshi_02.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_02/Materials/zhandou_yingyangshi_02.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_02/yinyangshi_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_02/yinyangshi_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_02/yinyangshi_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_02/yinyangshi_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_yinyangshi_02/yiyangshi_02.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandou_yuzaoqian_01/Materials/role_zhandou_yuzaoqian_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandou_yuzaoqian_01/Materials/zhandou_yuzaoqian.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandougongnv_01/Materials/role_zhandougongnv_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandougongnv_01/Materials/zhandou_gongnv.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandougongnv_01/role_zhandougongnv_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandougongnv_01/role_zhandougongnv_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandougongnv_01/role_zhandougongnv_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandougongnv_01/role_zhandougongnv_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouqingxingdegn_01/Materials/role_zhandouqingxingdegn_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouqingxingdegn_01/Materials/zhandou_qingxingdeng.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouxuenv/Materials/role_zhandouxuenv.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouxuenv/Materials/zhandou_xuenv.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouxuenv/zhandou_xuenv_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouxuenv/zhandou_xuenv_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouxuenv/zhandou_xuenv_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/role_zhandouxuenv/zhandou_xuenv_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_01/zhanshi_01_hunv.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_04/zhanshi04.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_06/zhanshi_yuzaoqian.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_anpeiqingming/zhanshi_anpeiqingming.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_banniang/zhanshi_banniang.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_gongnv/zhanshi_gongnv.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_guiwuzhe_01/zhanshi_guiwuzhe_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_qingxingdeng/zhanshi_qingxingdeng.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role/zhangshi_xuenv/zhanshi_05_xuenv.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/cxz/cxz.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/js0/js0.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/js1/js1.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/js2/js2.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_2dshow_scene/role_2dshow.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_chuxinzhe_01_show/role_chuxingzhe_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_guiwuzhe_01_show/role_guiwuzhe_01_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_guiwuzhe_02_show/role_guiwuzhe_02_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_guiwuzhe_03_show/role_guiwuzhe_03_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_show_scene/role_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_xinshou_01_show/xinshou_01_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_xinshou_02_show/Materials/weapon.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_xinshou_02_show/Materials/xinshou_02.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_xinshou_02_show/xinshou_02_show.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_xinshou_02_show/xinshou_02_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_xinshou_02_show/xinshou02_show.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_xinshou_03_show/xinshou_03_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_yinyangshi_01_show/yinyangshi_01_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_yinyangshi_02_show/yinyangshi_02_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/role_show/role_yinyangshi_03_show/yinyangshi_03_show.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/guiwuzhe_weapon_01/guiwuzhei_weapon_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/guiwuzhe_weapon_02/guiwuzhei_weapon_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/guiwuzhe_weapon_03/guiwuzhei_weapon_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/guiwuzhe_weapon_04/guiwuzhei_weapon_04.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/guiwuzhe_weapon_05/guiwuzhei_weapon_05.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/guiwuzhe_weapon_06/guiwuzhei_weapon_06.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/guiwuzhe_weapon_07/guiwuzhei_weapon_07.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/qumoshi_weapon_01/qumoshi_weapon_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/qumoshi_weapon_02/qumoshi_weapon_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/qumoshi_weapon_03/qumoshi_weapon_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/qumoshi_weapon_04/qumoshi_weapon_04.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/qumoshi_weapon_05/qumoshi_weapon_05.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/qumoshi_weapon_06/qumoshi_weapon_06.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/qumoshi_weapon_07/qumoshi_weapon_07.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_01/Materials/yingyangshi_01.mat" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_01/wuqi.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_01/yinyangshi_weapon_01.FBX" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_01/yinyangshi_weapon_01.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_02/yinyangshi_weapon_02.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_03/yinyangshi_weapon_03.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_04/yinyangshi_weapon_04.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_05/yinyangshi_weapon_05.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_06/yinyangshi_weapon_06.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="Models/weapon/yinyangshi_weapon_07/yinyangshi_weapon_07.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Bag.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Basics.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/BundleUsage.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Cooldown.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Curve.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/CutScene.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/EmitNumbers.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Emoji.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Extension.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Filter.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/GameObject.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Gesture.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Guide.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/HeadBar.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/HitTest.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Image-1.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Joystick.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/LoopList.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/ModalWaiting.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Model.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Particles.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Perspective.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/PullToRefresh.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/RenderTexture.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/ScrollPane.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/Transition.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/TreeView.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/TurnCard.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/TypingEffect.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Prefabs/VirtualList.prefab" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Bag.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Bag.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Basics.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Basics.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/BundleUsage.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/BundleUsage.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Cooldown.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Cooldown.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Curve.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Curve.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/CutScene.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/CutScene.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/EmitNumbers.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/EmitNumbers.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Emoji.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Emoji.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Extension.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Extension.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Filter.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Filter.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Gesture.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Guide.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Guide.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/HeadBar.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/HeadBar.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/HitTest.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/HitTest.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Image-1.jpg" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Joystick.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Joystick.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/LoopList.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/LoopList.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/ModalWaiting.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/ModalWaiting.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Model.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Model.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Particles.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Particles.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Perspective.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Perspective.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/PullToRefresh.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/PullToRefresh.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/RenderTexture.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/RenderTexture.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/ScrollPane.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/ScrollPane.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Transition.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Transition.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/Transition.wav" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/TreeView.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/TreeView.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/TurnCard.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/TurnCard.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/TypingEffect.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/TypingEffect.png" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/VirtualList.bytes" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/Res/VirtualList.png" LoadType="0" Packed="False" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="00cadc55f4692b64f8f91435e47232a6" AssetBundleName="UI/Prefabs/ModalWaiting.prefab" />
+      <Asset Guid="017d88ca0b9bef54fb5a17f24c3cd38b" AssetBundleName="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_01.prefab" />
+      <Asset Guid="01a3cddd1e598474aa67c6791fe58bb0" AssetBundleName="Models/monster/monster_mumei_01/monste_mumei_01.prefab" />
+      <Asset Guid="01f214278ddcb1a408302ed91eb755d1" AssetBundleName="Models/role_show/role_guiwuzhe_01_show/role_guiwuzhe_01_show.prefab" />
+      <Asset Guid="02b895e754914f740801eacf4a5ad353" AssetBundleName="UI/Res/Bag.png" />
+      <Asset Guid="0396972b5d4facc4693d2956478c5207" AssetBundleName="Models/monster/monster_choushizhinv_01/monster_choushizhinv_01.prefab" />
+      <Asset Guid="0411eeef3ff747b45be0de47fdc8398b" AssetBundleName="Models/role/role_zhandouxuenv/zhandou_xuenv_01.FBX" />
+      <Asset Guid="048a3ed6442c5eb45904357ea44373ec" AssetBundleName="Models/weapon/qumoshi_weapon_04/qumoshi_weapon_04.prefab" />
+      <Asset Guid="04f5fbcc767ef2c48a5afc296000b893" AssetBundleName="UI/Res/Joystick.bytes" />
+      <Asset Guid="05a7936162a7e684185c48b4f178ee53" AssetBundleName="Models/role/zhangshi_anpeiqingming/zhanshi_anpeiqingming.prefab" />
+      <Asset Guid="05d63cc8e6d6b074ab3407231a3b1dbd" AssetBundleName="Models/monster/monster_yujuchong_01/monster_yujuchong_01.prefab" />
+      <Asset Guid="0739cc3986493724e8d39e0b722d3389" AssetBundleName="Models/role/role_guiwuzhe_01/role_guiwuzhe_01.FBX" />
+      <Asset Guid="0a5c4e2a77a4eb342a7ea265c53c63ae" AssetBundleName="Models/monster/monster_guihuo_01/monster_guihuo_01.prefab" />
+      <Asset Guid="0c43ab1d65d0e5945a293d0dafbd84b9" AssetBundleName="Models/monster/monster_qintianfang_01/monster_qintianfang_01.prefab" />
+      <Asset Guid="0c743cf8ea4692349b668d69b94fb877" AssetBundleName="UI/Res/Filter.bytes" />
+      <Asset Guid="0c7b267ae783ebf4fb186b065485910e" AssetBundleName="Models/monster/monster_tangsanxiaoseng_01/monster_tangsanxiaoseng_01.prefab" />
+      <Asset Guid="0cf749dfd807aaf46b1b775001ab583b" AssetBundleName="Models/role/role_yinyangshi_01/yinyangshi_01.FBX" />
+      <Asset Guid="0d2fd6dadd7603f48a63fa550641f7b1" AssetBundleName="Models/role/zhangshi_guiwuzhe_01/zhanshi_guiwuzhe_01.prefab" />
+      <Asset Guid="0e9f78df648d2984c863f5d2ff0ab7a0" AssetBundleName="Models/weapon/guiwuzhe_weapon_04/guiwuzhei_weapon_04.prefab" />
+      <Asset Guid="12750ecbac977894ca6e0873450abd03" AssetBundleName="Models/monster/monster_maoyou_01/monster_maoyou_01.prefab" />
+      <Asset Guid="1388398783828054dbf190d0d189fa5e" AssetBundleName="Models/monster/monster_denglonggui_01/monster_denglonggui_01.prefab" />
+      <Asset Guid="138cae9b64e15d9448fe9c0ad1618dae" AssetBundleName="Models/monster/monster_hetong_01/monster_hetong_01.prefab" />
+      <Asset Guid="14ae3db65feb50347ab98cacd328602c" AssetBundleName="UI/Prefabs/EmitNumbers.prefab" />
+      <Asset Guid="15b810decf19d8449aa5adf7b54bae44" AssetBundleName="Models/role_show/role_xinshou_02_show/xinshou_02_show.FBX" />
+      <Asset Guid="1603ed2202408684ca24afe518ab23b3" AssetBundleName="UI/Res/Extension.bytes" />
+      <Asset Guid="161a13737cdf86440bd1886754ef6769" AssetBundleName="UI/Prefabs/VirtualList.prefab" />
+      <Asset Guid="1636ae6f4a4ce31458e10c225f7655ad" AssetBundleName="Models/monster/monster_wenchefei_01/monster_wenchefei_01.prefab" />
+      <Asset Guid="188abccec0da4e14c8d54f2176524304" AssetBundleName="Models/monster/monster_huatougui_01/monster_huatougui_01.prefab" />
+      <Asset Guid="1a1884c76383ff5408810b8f6b95abd3" AssetBundleName="UI/Res/Model.bytes" />
+      <Asset Guid="1adf5807f4f6cd14b84f99f80b354c52" AssetBundleName="Models/role/zhangshi_01/zhanshi_01_hunv.prefab" />
+      <Asset Guid="1c55f169cfeefe64cb9ecfb375c77e5c" AssetBundleName="UI/Res/EmitNumbers.png" />
+      <Asset Guid="1c5dd358479f0204281b3ece3dea0fdf" AssetBundleName="Models/monster/monster_heizhong_01/monster_heizhong_01.prefab" />
+      <Asset Guid="1d63bef3480193c44a1fc0d752ac14ef" AssetBundleName="UI/Res/Basics.bytes" />
+      <Asset Guid="2077661ffa6223149aef531f9e93a73d" AssetBundleName="UI/Prefabs/Joystick.prefab" />
+      <Asset Guid="20eaf642d88261b4cbb0f4ec2cff5087" AssetBundleName="UI/Res/Filter.png" />
+      <Asset Guid="238c1816662d5424db77c1d48dd88991" AssetBundleName="Models/monster/monster_sashanv_01/monster_sashanv_01.prefab" />
+      <Asset Guid="2885336c60771f5429e75f891a2b4de8" AssetBundleName="Models/monster/monster_hongyeshou_01/monste_hongyeshou_01.prefab" />
+      <Asset Guid="29262863138b94e4693d28aea8a60b09" AssetBundleName="Models/role/role_zhandouxuenv/zhandou_xuenv_01.prefab" />
+      <Asset Guid="2b049a9e0696e7146a50e4903c08b9d1" AssetBundleName="UI/Prefabs/TurnCard.prefab" />
+      <Asset Guid="2baf13b119710ce469ffa4ccfa5b1cea" AssetBundleName="Models/monster/monster_qingxingdeng_01/monster_qingxingdeng_01.prefab" />
+      <Asset Guid="2bca2b39d0590b3449b31ca81e7703b1" AssetBundleName="UI/Res/LoopList.bytes" />
+      <Asset Guid="2e4121f041965f846b518b31440a2d9a" AssetBundleName="Models/role/role_zhandougongnv_01/role_zhandougongnv_03.prefab" />
+      <Asset Guid="2ea4f7e3fc115a54489191cea6c14370" AssetBundleName="Models/weapon/qumoshi_weapon_06/qumoshi_weapon_06.prefab" />
+      <Asset Guid="2f0511cd3bd4887459ec110ede1651b4" AssetBundleName="UI/Prefabs/TypingEffect.prefab" />
+      <Asset Guid="2fb35406c186c3a42ab317b2aff7a927" AssetBundleName="UI/Res/CutScene.bytes" />
+      <Asset Guid="3263f3843dc2fac41b82d74a1e035a53" AssetBundleName="Models/role/role_xinshou_01/Materials/xinshou_01_gaitoufa.mat" />
+      <Asset Guid="3335f8f94bc6bc44891d992afc1e1bff" AssetBundleName="UI/Res/Image-1.jpg" />
+      <Asset Guid="343bd05e1695bc64794b1134ab8188e0" AssetBundleName="Models/role_show/role_yinyangshi_03_show/yinyangshi_03_show.prefab" />
+      <Asset Guid="3499e65162dabe343b1e0ea6f0ae7f1e" AssetBundleName="UI/Prefabs/ScrollPane.prefab" />
+      <Asset Guid="34e08f4243fa95e45af336e36cc11966" AssetBundleName="UI/Res/TurnCard.bytes" />
+      <Asset Guid="3595b5abdc5f28347a45c2b6dd9950b1" AssetBundleName="UI/Prefabs/Curve.prefab" />
+      <Asset Guid="35dcff69e8cd4284cb140aec9897c55a" AssetBundleName="UI/Res/Guide.bytes" />
+      <Asset Guid="37af0e60acb292143a62473a2880b634" AssetBundleName="UI/Res/HeadBar.png" />
+      <Asset Guid="38b342730c155e7488c78260cbcbeb79" AssetBundleName="UI/Res/ScrollPane.bytes" />
+      <Asset Guid="3940df139dcc30d44b411e3615109ba7" AssetBundleName="Models/weapon/yinyangshi_weapon_04/yinyangshi_weapon_04.prefab" />
+      <Asset Guid="3a17469d3407b724b9ad562662110698" AssetBundleName="Models/role/chuxinzhe_01/chuxinzhe_03.FBX" />
+      <Asset Guid="3a8a52d9d6f68de49b3122858a32e15b" AssetBundleName="UI/Prefabs/Transition.prefab" />
+      <Asset Guid="3adda5b68c1597b4d8ac62b6196773ae" AssetBundleName="Models/weapon/qumoshi_weapon_03/qumoshi_weapon_03.prefab" />
+      <Asset Guid="3b6d28eff91deb84594077709763d6fa" AssetBundleName="Models/monster/monster_dengtaigui_01/monste_dengtaigui_01.prefab" />
+      <Asset Guid="3bf879d5e6d3347469743405de0e2855" AssetBundleName="UI/Res/Model.png" />
+      <Asset Guid="3c006bac4cb12484abf45842e2ec2a45" AssetBundleName="Models/weapon/yinyangshi_weapon_01/wuqi.FBX" />
+      <Asset Guid="3c0238d550481334cb6d4fbb6126a0ea" AssetBundleName="UI/Prefabs/Model.prefab" />
+      <Asset Guid="3d479f644c62e6145838442a8c8ad780" AssetBundleName="UI/Prefabs/TreeView.prefab" />
+      <Asset Guid="3dbbac65c94e6754da5d47b99d4f8f66" AssetBundleName="UI/Prefabs/Image-1.prefab" />
+      <Asset Guid="3eba578ebcf7fcf40871d585d7d6e5f0" AssetBundleName="UI/Prefabs/GameObject.prefab" />
+      <Asset Guid="3ecd2f6c4222abc45918d387d8ce1b4a" AssetBundleName="UI/Res/Extension.png" />
+      <Asset Guid="3f276d4e52715ca4d946deab0ef39df1" AssetBundleName="Models/weapon/yinyangshi_weapon_07/yinyangshi_weapon_07.prefab" />
+      <Asset Guid="40398ffcd08e2194fba8d31f244c2bdb" AssetBundleName="Models/role_show/role_yinyangshi_01_show/yinyangshi_01_show.prefab" />
+      <Asset Guid="40476f32e88a7f84c9f7373d686abf97" AssetBundleName="UI/Res/BundleUsage.png" />
+      <Asset Guid="40de10a1ac2c5294ba579355db630921" AssetBundleName="Models/role_show/js1/js1.prefab" />
+      <Asset Guid="4122e0093c4bcd144aa3c8e6f14aa5a7" AssetBundleName="Models/role/role_zhandouxuenv/zhandou_xuenv_03.prefab" />
+      <Asset Guid="424c9cb59ee560d4abae6f837bc9f26a" AssetBundleName="Models/weapon/qumoshi_weapon_05/qumoshi_weapon_05.prefab" />
+      <Asset Guid="43e6de9efdbe1db4486f8cd8d92f76f8" AssetBundleName="UI/Res/TypingEffect.bytes" />
+      <Asset Guid="44b93bb69fdd4ac47b98124cd452f8e6" AssetBundleName="Models/role_show/role_chuxinzhe_01_show/role_chuxingzhe_show.prefab" />
+      <Asset Guid="45502c26539b340429656dd6be460486" AssetBundleName="Models/role/role_guiwuzhe_01/role_guiwuzhe_02.prefab" />
+      <Asset Guid="45dc757cf99af8f4c887ef35c2b3ee64" AssetBundleName="UI/Res/TurnCard.png" />
+      <Asset Guid="49cfd77297bba9041b8e008545b19037" AssetBundleName="UI/Prefabs/Gesture.prefab" />
+      <Asset Guid="4bf017fbfa35d1b43a38d768ce81a9b3" AssetBundleName="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_02.prefab" />
+      <Asset Guid="4df65486b3eb60a409458cc90c5b30f7" AssetBundleName="Models/monster/monster_maoyao_01/monste_maoyao_01.prefab" />
+      <Asset Guid="4e411a0f6c5cf6044a270ef0c7aac19f" AssetBundleName="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_01.prefab" />
+      <Asset Guid="4e9c90ef8a8447f41b2eafb389d2d83a" AssetBundleName="Models/monster/monster_boss_jiuweihu/boss_jiuweihu.prefab" />
+      <Asset Guid="5014c2ab6c88bd049bf23aa4882ebb4b" AssetBundleName="Models/weapon/yinyangshi_weapon_01/yinyangshi_weapon_01.prefab" />
+      <Asset Guid="51cc0629bb425da40baa2822014d6bcf" AssetBundleName="Models/monster/monster_shangjing_01/monster_shangjing_01.prefab" />
+      <Asset Guid="51de7992411420d439d57d5e7cd2f01e" AssetBundleName="UI/Prefabs/CutScene.prefab" />
+      <Asset Guid="528d9688c5a2b244e96195c03fb3d9c8" AssetBundleName="UI/Res/Cooldown.png" />
+      <Asset Guid="536cbe0e0cc248549a0d8be346956bfd" AssetBundleName="UI/Res/Cooldown.bytes" />
+      <Asset Guid="53a6583513a30424eb661e684dfa8c86" AssetBundleName="Models/role/role_zhandougongnv_01/role_zhandougongnv_01.FBX" />
+      <Asset Guid="53ae8c68350a3d34691bf52ae6151e4c" AssetBundleName="UI/Res/Transition.wav" />
+      <Asset Guid="54e57402c7f373c4e94a9fb78a7f10f0" AssetBundleName="Models/monster/monster_shouwu_01/monster_shouwu_01.prefab" />
+      <Asset Guid="55a6df80f3580ef4cafb3ce2b52f3cb2" AssetBundleName="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_03.prefab" />
+      <Asset Guid="560d3c37a9a0c62468759e3496fa5baa" AssetBundleName="Models/monster/monster_yixienamei_01/monster_yixienamei_01.prefab" />
+      <Asset Guid="56225473ba65e8842b6297164024dc8a" AssetBundleName="UI/Prefabs/LoopList.prefab" />
+      <Asset Guid="569a4558bc9574d499cfe19e7b7d80fc" AssetBundleName="Models/role/role_zhandougongnv_01/Materials/zhandou_gongnv.mat" />
+      <Asset Guid="574aabe08c1306c438ff0297ad8817f7" AssetBundleName="Models/role_show/js0/js0.prefab" />
+      <Asset Guid="58c8110f6a409b245869e88a146b33ea" AssetBundleName="Models/weapon/yinyangshi_weapon_02/yinyangshi_weapon_02.prefab" />
+      <Asset Guid="5de88e2deb015ab479259de554981392" AssetBundleName="UI/Res/Basics.png" />
+      <Asset Guid="5dfdf74677e184c40ade777420796aab" AssetBundleName="Models/monster/monster_quanshen_01/monster_quanshen_02.prefab" />
+      <Asset Guid="61721139c77643f428c0ef20c9c136d9" AssetBundleName="Models/monster/monster_hudiejing_01/monster_hudiejing_01.prefab" />
+      <Asset Guid="629e6086e58ca1047a268cd6c0fa42c5" AssetBundleName="Models/role/role_xinshou_01/Materials/weapon.mat" />
+      <Asset Guid="62ada8ae92e3aa140ad55d0668e5f660" AssetBundleName="Models/role/chuxinzhe_01/chuxinzhe_01.FBX" />
+      <Asset Guid="62bceaf1f9ad66c42b6cfeb44d70bb45" AssetBundleName="Models/weapon/guiwuzhe_weapon_06/guiwuzhei_weapon_06.prefab" />
+      <Asset Guid="63ba03e15ec530b418401d3b9fc5dd96" AssetBundleName="Models/role/role_zhandougongnv_01/role_zhandougongnv_02.prefab" />
+      <Asset Guid="64b8bd2eb2ec3564f8e856108d5028f7" AssetBundleName="UI/Res/BundleUsage.bytes" />
+      <Asset Guid="66bfe26edc0e78245ac5df9c0894a500" AssetBundleName="Models/role/role_zhandou_yuzaoqian_01/Materials/zhandou_yuzaoqian.mat" />
+      <Asset Guid="675593d03aa7f3547847faece7df9900" AssetBundleName="Models/role/role_xinshou_03/xinshou_02.prefab" />
+      <Asset Guid="679cced8df477d7429de78cf8a03e17f" AssetBundleName="Models/role/role_yinyangshi_02/yinyangshi_03.prefab" />
+      <Asset Guid="67a8b4a135f8d824b88ea46c90f3e645" AssetBundleName="Models/monster/monster_guanghu_01/monster_guanhu_01.prefab" />
+      <Asset Guid="67cb07cfa4e016a4ab4f11b085a24e91" AssetBundleName="Models/monster/monster_qiaoji_01/monster_qiaoji_01.prefab" />
+      <Asset Guid="6814a2708e308c44d975ff6b42a2c802" AssetBundleName="UI/Res/Gesture.bytes" />
+      <Asset Guid="68cd398fa272af64c8433f3b1d44c9d9" AssetBundleName="Models/weapon/qumoshi_weapon_02/qumoshi_weapon_02.prefab" />
+      <Asset Guid="696f5cf967d172840812bdd151268e06" AssetBundleName="Models/monster/monster_limao_01/monster_limao_01.prefab" />
+      <Asset Guid="69ed7fc88ea02244ba2595f1d5aeb1b1" AssetBundleName="Models/monster/monster_boss_zhizhu/boss_zhizhu.prefab" />
+      <Asset Guid="6a5fcfdaeaf1caf418daf664463256f9" AssetBundleName="Models/monster/monster_quanshen_01/Materials/monster_quanshen_01.mat" />
+      <Asset Guid="6a6d1c1ca4a40494ca4eb53f4f7ca329" AssetBundleName="Models/weapon/yinyangshi_weapon_06/yinyangshi_weapon_06.prefab" />
+      <Asset Guid="6a6e2443977095f4c8bbedf490d5e86f" AssetBundleName="Models/role/role_xinshou_01/xinshou_01.FBX" />
+      <Asset Guid="6a9c5fd44fe05e0418f8b56403d29f8a" AssetBundleName="Models/role/role_zhandouxuenv/zhandou_xuenv_02.prefab" />
+      <Asset Guid="6ae4cace8543bce42a4eaa00e927e500" AssetBundleName="Models/weapon/guiwuzhe_weapon_01/guiwuzhei_weapon_01.prefab" />
+      <Asset Guid="6e1d6c61eacee3e478955c7b7f154bd8" AssetBundleName="UI/Res/Bag.bytes" />
+      <Asset Guid="6ee34c2ea67dbdf41bce0ded7e76f962" AssetBundleName="Models/monster/monster_xuenv_01/monste_xuenv_01.prefab" />
+      <Asset Guid="71be6e7da5f5f5e47bc97f5a7d827363" AssetBundleName="Models/role/role_guiwuzhe_01/role_guiwuzhe_01.prefab" />
+      <Asset Guid="7328a3acfa250ef478df8f47bbb59b25" AssetBundleName="UI/Res/ScrollPane.png" />
+      <Asset Guid="732f0625f58066c47961d1da0ca15c3c" AssetBundleName="Models/monster/monster_hongyaoguai_01/monster_hongyaoguai_01.FBX" />
+      <Asset Guid="751138c46cde21d41939b5cdd7cf8d76" AssetBundleName="Models/role_show/role_2dshow_scene/role_2dshow.prefab" />
+      <Asset Guid="7537de87a0a39cf49af6160bb529d4c2" AssetBundleName="Models/role/role_yinyangshi_02/yinyangshi_02.prefab" />
+      <Asset Guid="7643ca2c36232a14aa96e19e94c68b75" AssetBundleName="UI/Res/Perspective.bytes" />
+      <Asset Guid="7774e5a1e84e40745b3c5624a2417b1f" AssetBundleName="UI/Res/EmitNumbers.bytes" />
+      <Asset Guid="77e54db693f036c43968f39e495ea42c" AssetBundleName="Models/monster/monster_jue_01/monster_jue_01.prefab" />
+      <Asset Guid="78ae6faf70eb8ff4aa83c1d0078b894b" AssetBundleName="UI/Res/TreeView.bytes" />
+      <Asset Guid="7a71a070dc496c946932e55f17cef125" AssetBundleName="UI/Prefabs/HeadBar.prefab" />
+      <Asset Guid="7a78c30ca5d92a04abbd80ab92478f27" AssetBundleName="Models/monster/monster_daocaoren_01/monste_daocaoren_01.prefab" />
+      <Asset Guid="7a91be0716142d0409f3b3cab0f31e78" AssetBundleName="UI/Res/ModalWaiting.png" />
+      <Asset Guid="7b8a4128912469248bf45b57bed258cb" AssetBundleName="Models/monster/monster_yatiangou_01/monster_yatiangou_01.prefab" />
+      <Asset Guid="7d17cc2584bf63144bad796f479f3387" AssetBundleName="Models/monster/monster_quanshen_01/monster_quanshen_01.FBX" />
+      <Asset Guid="7e56dcf31d41cf24c9ab86c5faf8cd00" AssetBundleName="Models/role/role_zhandou_yuzaoqian_01/zhandou_yuzaoqian_01.FBX" />
+      <Asset Guid="7f985a20a5fe7ed4aa652bd44c2e94e0" AssetBundleName="Models/monster/monster_boss_bazhidashe/boss_baqidashe.prefab" />
+      <Asset Guid="80a4227722cf594449dc8dcc18726ff5" AssetBundleName="Models/monster/monster_hongyaoguai_01/Materials/monster_hongyaoguai_01.mat" />
+      <Asset Guid="80f99c4d9f42b8047933220fd5d06cab" AssetBundleName="UI/Res/ModalWaiting.bytes" />
+      <Asset Guid="817f37e24c628424a8a87a96298563cd" AssetBundleName="Models/role/role_yinyangshi_02/yinyangshi_01.FBX" />
+      <Asset Guid="818e3041f04e0fb4cac23502e67132f8" AssetBundleName="UI/Res/RenderTexture.png" />
+      <Asset Guid="8211706b743fc7f43870bcde065a4885" AssetBundleName="UI/Prefabs/RenderTexture.prefab" />
+      <Asset Guid="821a389fec69012499b564a8e719c6a6" AssetBundleName="UI/Prefabs/Perspective.prefab" />
+      <Asset Guid="82f0b057c6fb11b4fb7a9f629e89c306" AssetBundleName="UI/Res/VirtualList.bytes" />
+      <Asset Guid="83cc6b535b67ab246bb1522201ff4fdb" AssetBundleName="Models/role/role_xinshou_03/Materials/zhandou_xinshou_02.mat" />
+      <Asset Guid="8448e858098c5544f9a2a50e613a15f3" AssetBundleName="Models/monster/monster_youchizi_01/monste_youchizi_01.prefab" />
+      <Asset Guid="850ffbe004ffec648a52f7f65391ba0a" AssetBundleName="Models/role/role_zhandouxuenv/Materials/zhandou_xuenv.mat" />
+      <Asset Guid="8629fa4b8b932cf499fd23b89aa19753" AssetBundleName="Models/monster/monster_shalugui_01/monster_shalugui_01.prefab" />
+      <Asset Guid="886e219464898f3499bade11142cbb8f" AssetBundleName="UI/Res/HitTest.png" />
+      <Asset Guid="886fa83c40e1c2f4e87b04037946ffa6" AssetBundleName="Models/monster/monster_zhixingjue_01/monster_zhixingjue_01.prefab" />
+      <Asset Guid="8a9e9034b11288b4189ca6116ea2c122" AssetBundleName="Models/weapon/guiwuzhe_weapon_07/guiwuzhei_weapon_07.prefab" />
+      <Asset Guid="8ab75b42deb06f74c9cfc69ae3aa9f2f" AssetBundleName="Models/weapon/yinyangshi_weapon_03/yinyangshi_weapon_03.prefab" />
+      <Asset Guid="8ba2852d46282a24b91141ee9fce9f2f" AssetBundleName="Models/role_show/role_xinshou_02_show/Materials/xinshou_02.mat" />
+      <Asset Guid="8cec454af591e8a48bccb769e834ff61" AssetBundleName="Models/role/role_xinshou_03/xinshou_03.FBX" />
+      <Asset Guid="8d7407c9d28c6c74aa17a8feed7f05ab" AssetBundleName="Models/role_show/role_guiwuzhe_03_show/role_guiwuzhe_03_show.prefab" />
+      <Asset Guid="8e14e5fd01cea29418275d63bd0ad0ff" AssetBundleName="Models/monster/monster_yuzaoqian_01/monster_yuzaoqian.prefab" />
+      <Asset Guid="8e69249281b7bc141a379167436331c2" AssetBundleName="Models/monster/item_qifushen/qifusheng.prefab" />
+      <Asset Guid="8e80c3a3ed2215d4180fcd3c60e5f1d3" AssetBundleName="Models/weapon/guiwuzhe_weapon_03/guiwuzhei_weapon_03.prefab" />
+      <Asset Guid="911ca7aefe358fb419b309d166f79a97" AssetBundleName="Models/role/role_anpeiqingming/Materials/role_anpeiqingming.mat" />
+      <Asset Guid="91a416c7f5ab296459bc42ba0acdd3dd" AssetBundleName="UI/Res/HitTest.bytes" />
+      <Asset Guid="91d99eca449ffd84e9a5f62290c328f6" AssetBundleName="Models/role/role_zhandougongnv_01/Materials/role_zhandougongnv_01.mat" />
+      <Asset Guid="9276952698d18c34ab13d061718ab166" AssetBundleName="Models/role/zhangshi_06/zhanshi_yuzaoqian.prefab" />
+      <Asset Guid="92d74659a0340b94787544c4c80a377f" AssetBundleName="Models/role/zhangshi_qingxingdeng/zhanshi_qingxingdeng.prefab" />
+      <Asset Guid="935c015448198a341bdc7591ae271a7e" AssetBundleName="Models/role/zhangshi_banniang/zhanshi_banniang.prefab" />
+      <Asset Guid="93d5cf5bdc3a8a64c8c04ac344bcb445" AssetBundleName="UI/Res/RenderTexture.bytes" />
+      <Asset Guid="94606f955d4d92d4188f4a51f398d0fc" AssetBundleName="UI/Res/Curve.png" />
+      <Asset Guid="972c603d50523de48b053957a5a6742d" AssetBundleName="UI/Res/Joystick.png" />
+      <Asset Guid="976889396e8aeae44a6b0d86177bc06b" AssetBundleName="Models/role/role_yinyangshi_01/Materials/yingyangshi_01.mat" />
+      <Asset Guid="9a5fca51db26f2648a16a28370f6e3c7" AssetBundleName="UI/Res/Transition.png" />
+      <Asset Guid="9a9327c03eff0694b83ced486d7e73ba" AssetBundleName="Models/role/role_yinyangshi_02/Materials/role_yinyangshi_02.mat" />
+      <Asset Guid="9c2074143f223ea43bf4e0a89fe2dc33" AssetBundleName="Models/role/zhangshi_gongnv/zhanshi_gongnv.prefab" />
+      <Asset Guid="9c853c915127fa74d86c54f094bf37a7" AssetBundleName="Models/monster/monster_quanshen_01/monster_quanshen_01.prefab" />
+      <Asset Guid="9e0f1708abe72d34eac8cb6c4740307b" AssetBundleName="UI/Res/Emoji.png" />
+      <Asset Guid="9e46d3e53b9b5084b8f9b508f7feead7" AssetBundleName="UI/Prefabs/Particles.prefab" />
+      <Asset Guid="9f2111ddacdb31e40bbf1ecc039fdbec" AssetBundleName="Models/role_show/role_xinshou_02_show/xinshou_02_show.prefab" />
+      <Asset Guid="9f4d72f4005da234bb8f7e0419934d31" AssetBundleName="UI/Res/Guide.png" />
+      <Asset Guid="a1c9bb4509ed9d343b5e5773c012e812" AssetBundleName="Models/monster/monster_lingyanji_01/monster_lingyanji_01.prefab" />
+      <Asset Guid="a24e6050198063148ad48c80be1f3748" AssetBundleName="Models/role_show/role_xinshou_01_show/xinshou_01_show.prefab" />
+      <Asset Guid="a2e9664b64bd81b44a687e231240165a" AssetBundleName="Models/weapon/yinyangshi_weapon_01/Materials/yingyangshi_01.mat" />
+      <Asset Guid="a4ae06adbf1760c49a10d23a890b0a0e" AssetBundleName="UI/Prefabs/Extension.prefab" />
+      <Asset Guid="a58d2e4fe75f01c47847895dbf26024a" AssetBundleName="Models/monster/monster_ba_01/monster_ba_01.prefab" />
+      <Asset Guid="a750954d2c2faba4b9ade075d661dec9" AssetBundleName="Models/role/role_guiwuzhe_03/Materials/guiwuzhe_03.mat" />
+      <Asset Guid="a78c0325ef7e28d43a34d1df9b04da3b" AssetBundleName="Models/monster/monster_yujiangxiaoseng_01/monster_yujiangxiaoseng_01.prefab" />
+      <Asset Guid="a83a121c376acbd4e9c32b646a76f6f6" AssetBundleName="UI/Prefabs/PullToRefresh.prefab" />
+      <Asset Guid="a8eddf595bf53f34eaa55295ad733937" AssetBundleName="UI/Prefabs/Guide.prefab" />
+      <Asset Guid="a8f36fe1f3425ed48b022e394386a209" AssetBundleName="Models/monster/monster_shuoshuling_01/monster_shuoshuling_01.prefab" />
+      <Asset Guid="a929778c93f9fc74daa6016f42716717" AssetBundleName="Models/role/role_xinshou_03/Materials/xinshou_03.mat" />
+      <Asset Guid="a92dd08423f16f949951951ef5b73cff" AssetBundleName="Models/role/role_anpeiqingming/zhandou_anpeiqingming_03.prefab" />
+      <Asset Guid="a940201dac6138b47b5138f0e9c889c6" AssetBundleName="Models/monster/monster_banruo_01/monste_banruo_01.prefab" />
+      <Asset Guid="ab2b123caa2b84d41b4995d11ae657f0" AssetBundleName="Models/monster/monster_zhangyuzi_01/monster_zhangyuzi_01.prefab" />
+      <Asset Guid="ab337da82ab510b488ebcfcf330ed9d9" AssetBundleName="UI/Res/HeadBar.bytes" />
+      <Asset Guid="ab571b3a1a01ea04288fb4576b45e963" AssetBundleName="UI/Prefabs/Filter.prefab" />
+      <Asset Guid="abeacd3c57315f04b92ac621323f9203" AssetBundleName="Models/weapon/guiwuzhe_weapon_05/guiwuzhei_weapon_05.prefab" />
+      <Asset Guid="ac250a71c00402a4ea805b11afc4cbcc" AssetBundleName="Models/monster/monster_yunv_01/monster_yunv_01.prefab" />
+      <Asset Guid="ae5eb6d6acea5444f85f4f26713cfb97" AssetBundleName="Models/weapon/yinyangshi_weapon_01/yinyangshi_weapon_01.FBX" />
+      <Asset Guid="aecb52159a463bc428613341c664326a" AssetBundleName="Models/role/chuxinzhe_01/chuxinzhe_03.prefab" />
+      <Asset Guid="b0d066f99f76b1b44b512416419a0689" AssetBundleName="Models/role/role_guiwuzhe_03/role_guiwuzhe_03.FBX" />
+      <Asset Guid="b21d53c8d309d8545ab5c45e0dfc8730" AssetBundleName="UI/Prefabs/Bag.prefab" />
+      <Asset Guid="b25a83d0116e5de439c50b3d58fceef6" AssetBundleName="Models/monster/monster_fenfuchafu_01/monste_fenfuchafu_02.prefab" />
+      <Asset Guid="b2e91c775851da34e8fe582ae367a27e" AssetBundleName="Models/role_show/role_xinshou_02_show/xinshou02_show.FBX" />
+      <Asset Guid="b3132de0eb2798447881034e4bf33088" AssetBundleName="Models/monster/monster_daochengsizhong_01/monster_daochengsizhong_01.prefab" />
+      <Asset Guid="b4dcf8a15d33ad84084fc1baa3ab1e9a" AssetBundleName="Models/monster/monster_fenfuchafu_01/monste_fenfuchafu_01.prefab" />
+      <Asset Guid="b636bb5de1b384f46984f5f1c7793ffe" AssetBundleName="UI/Res/TreeView.png" />
+      <Asset Guid="b76ac085dba8e9e49a5721ad91bc165a" AssetBundleName="Models/monster/monster_jiutuntongzi_01/monster_jiutuntongzi_01.prefab" />
+      <Asset Guid="b809157962fe11740bc52545bef51cfe" AssetBundleName="Models/monster/monster_hongyaoguai_01/monster_hongyaoguai_02.prefab" />
+      <Asset Guid="b8ffb5ed3b014c44bab5b29a661eea50" AssetBundleName="Models/role_show/role_xinshou_02_show/Materials/weapon.mat" />
+      <Asset Guid="b908cd640f2f5064b809a4d1d9d22843" AssetBundleName="UI/Res/LoopList.png" />
+      <Asset Guid="ba49a8533228f7841aab146190120a3d" AssetBundleName="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_02.prefab" />
+      <Asset Guid="ba676f82115fae3449f8acebdcbdb139" AssetBundleName="UI/Res/Curve.bytes" />
+      <Asset Guid="bacdbbf03dfce2945aa264653846451f" AssetBundleName="Models/role/role_anpeiqingming/Materials/zhandou_anpeiqingming.mat" />
+      <Asset Guid="bba9753904e8dd749acc2188370d05ba" AssetBundleName="Models/role/zhangshi_xuenv/zhanshi_05_xuenv.prefab" />
+      <Asset Guid="bbce2bf61c3543147bd11045d7b833f2" AssetBundleName="Models/role/chuxinzhe_01/chuxinzhe_01.prefab" />
+      <Asset Guid="bbef3f5e79d0a5946964e9ecb70873f1" AssetBundleName="Models/role/role_zhandouqingxingdegn_01/Materials/zhandou_qingxingdeng.mat" />
+      <Asset Guid="bd201723a296bed4ba78b907bc269cdd" AssetBundleName="Models/role_show/role_guiwuzhe_02_show/role_guiwuzhe_02_show.prefab" />
+      <Asset Guid="be14ead8cd05f3048a07e66e6e99dd12" AssetBundleName="Models/weapon/qumoshi_weapon_01/qumoshi_weapon_01.prefab" />
+      <Asset Guid="be4952e8ad9f6ce4fab71782b92135bd" AssetBundleName="UI/Res/VirtualList.png" />
+      <Asset Guid="be5f966b8e623bf4cad3b5e650075ccc" AssetBundleName="Models/role/zhangshi_04/zhanshi04.prefab" />
+      <Asset Guid="be8e3f76e144cd04f953ac8db5fe75ec" AssetBundleName="Models/monster/monster_yanqiouguai_01/monster_yanqiouguai_01.prefab" />
+      <Asset Guid="bf105e5d0dd0bc84387e6c6018e48a21" AssetBundleName="UI/Res/TypingEffect.png" />
+      <Asset Guid="c0c30d7124d9e2d4fa94ed9cf143031a" AssetBundleName="Models/monster/monster_fenfuchafu_01/Materials/monste_fenfuchafu_01.mat" />
+      <Asset Guid="c0f9dc3c1a3159d47bd5e0e540485930" AssetBundleName="UI/Res/PullToRefresh.bytes" />
+      <Asset Guid="c1ae86cd7a1fae84ca49d9e327c88865" AssetBundleName="Models/role/role_zhandougongnv_01/role_zhandougongnv_01.prefab" />
+      <Asset Guid="c1f3dfcb45453d84c8cce15da88bfcaa" AssetBundleName="UI/Prefabs/Cooldown.prefab" />
+      <Asset Guid="c31d74326b0f9e24e85c39682a87d92e" AssetBundleName="UI/Prefabs/HitTest.prefab" />
+      <Asset Guid="c4f1ffe545bb9b94d898aa7ca1000b32" AssetBundleName="Models/role/role_yinyangshi_02/Materials/zhandou_yingyangshi_02.mat" />
+      <Asset Guid="c5c60ae3684b0cd45af6b0b1a168bdb1" AssetBundleName="Models/role/chuxinzhe_01/Materials/xinshou_01.mat" />
+      <Asset Guid="c5faa52b14771844db0780371afcb221" AssetBundleName="UI/Prefabs/BundleUsage.prefab" />
+      <Asset Guid="c7d005123d832fa4fba727146705f8ce" AssetBundleName="UI/Prefabs/Basics.prefab" />
+      <Asset Guid="ca18dd6b7b6bff14ba78882a9c44d5fd" AssetBundleName="Models/weapon/qumoshi_weapon_07/qumoshi_weapon_07.prefab" />
+      <Asset Guid="ca3fdf3f79cf65b4291ada4df7659446" AssetBundleName="UI/Res/Transition.bytes" />
+      <Asset Guid="cacd578a1069ae941a43a8840c2c7c4c" AssetBundleName="Models/role/role_xinshou_03/xinshou_01.prefab" />
+      <Asset Guid="cb4a94355609f17498173c3e0de7fd01" AssetBundleName="Models/role/role_yinyangshi_01/role_yinyangshi_01.FBX" />
+      <Asset Guid="cc6bb29dd3bf9804898acd8833c0bad7" AssetBundleName="Models/monster/monster_hongyaoguai_01/monster_hongyaoguai_01.prefab" />
+      <Asset Guid="ccabe6ff0c3044e4a8b5732f4f70b6cf" AssetBundleName="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_03.prefab" />
+      <Asset Guid="cd51a2b6bda8fd348a67d592de68d3d4" AssetBundleName="Models/role/role_yinyangshi_02/yinyangshi_01.prefab" />
+      <Asset Guid="ce5756dcedbbb404496d1031ae6499e3" AssetBundleName="UI/Res/Perspective.png" />
+      <Asset Guid="cf0cc3f566c9f8947bbc3d9ecea48ff4" AssetBundleName="Models/monster/monster_yanmo_01/monster_yanmo_01.prefab" />
+      <Asset Guid="cffeba4269670454fbf974f29f3d528f" AssetBundleName="UI/Res/Emoji.bytes" />
+      <Asset Guid="d73116a36c53c8e48b4cf67a3e4c4671" AssetBundleName="Models/role/chuxinzhe_01/Materials/chuxinzhe_01.mat" />
+      <Asset Guid="da8b2b5c49090ec4fa8ba08b85acbd76" AssetBundleName="Models/role/role_yinyangshi_02/yiyangshi_02.FBX" />
+      <Asset Guid="daac7eadcbfced340b4a30d5018a6329" AssetBundleName="Models/monster/monster_jinling_01/monster_jinling_01.prefab" />
+      <Asset Guid="dcaea4045c7f6d24cb1fde1aef3710a9" AssetBundleName="Models/role/role_anpeiqingming/zhandou_anpeiqingming_02.prefab" />
+      <Asset Guid="dd41fc22a0127f444a3e4fa983bce7b1" AssetBundleName="Models/role_show/cxz/cxz.prefab" />
+      <Asset Guid="ddad82a0d9ea2214c94cb6580f531191" AssetBundleName="Models/role/chuxinzhe_01/chuxinzhe_02.FBX" />
+      <Asset Guid="ddbec34b1fbdf234d9979b7b8e7a0559" AssetBundleName="Models/role/chuxinzhe_01/Materials/weapon.mat" />
+      <Asset Guid="df57341e08d7995439c862fcda895917" AssetBundleName="Models/role_show/role_show_scene/role_show.prefab" />
+      <Asset Guid="dfbb2556aefad8748a75ae6f4695634a" AssetBundleName="Models/role/role_zhandouqingxingdegn_01/Materials/role_zhandouqingxingdegn_01.mat" />
+      <Asset Guid="e01d3d10e0fec5d4fb7e2283f50d4d55" AssetBundleName="Models/weapon/yinyangshi_weapon_05/yinyangshi_weapon_05.prefab" />
+      <Asset Guid="e1e0fea0bbb02624196c5f1aeeb095dc" AssetBundleName="Models/monster/monster_baize_01/monster_baize_01.prefab" />
+      <Asset Guid="e272c1cf1bb8c9441994e81f50209ce5" AssetBundleName="Models/role_show/role_yinyangshi_02_show/yinyangshi_02_show.prefab" />
+      <Asset Guid="e3272a6a85fea1646ade85deb0fd0a8a" AssetBundleName="UI/Res/CutScene.png" />
+      <Asset Guid="e43e8dae890364a40b68c3c83a194cc2" AssetBundleName="Models/role/role_guiwuzhe_03/Materials/guiwuzhe_weapon_03.mat" />
+      <Asset Guid="e4d992f1bcfa1c04095938720a09752b" AssetBundleName="Models/role/role_zhandouxuenv/Materials/role_zhandouxuenv.mat" />
+      <Asset Guid="e509da529d952454da76acb8ad4ea898" AssetBundleName="UI/Prefabs/Emoji.prefab" />
+      <Asset Guid="e58045bcb5c4ffa4dad8a5e30a6a96c0" AssetBundleName="Models/weapon/guiwuzhe_weapon_02/guiwuzhei_weapon_02.prefab" />
+      <Asset Guid="e5c0d0038b1e8f949bc5c10b05162311" AssetBundleName="Models/role/role_xinshou_03/xinshou_03.prefab" />
+      <Asset Guid="e6e7eab11555ef04daac8c32c438de22" AssetBundleName="UI/Res/Particles.png" />
+      <Asset Guid="e6f0faf17fbcd924e9cede0f8f061960" AssetBundleName="Models/Prefabs/chuxinzhe_01.prefab" />
+      <Asset Guid="e6fdfe3057e76744283fb83b4d67b7a9" AssetBundleName="Models/role/role_guiwuzhe_01/Materials/role_guiwuzhe_01.mat" />
+      <Asset Guid="e8b1ee9f4a6e2ce47affd375170d2df9" AssetBundleName="Models/role/role_zhandou_yuzaoqian_01/Materials/role_zhandou_yuzaoqian_01.mat" />
+      <Asset Guid="e955686fb0832024585cc15195eb4100" AssetBundleName="Models/role/role_anpeiqingming/zhandou_anpeiqingming_01.prefab" />
+      <Asset Guid="ea20ccf05e9710446aedcc873b542481" AssetBundleName="UI/Res/PullToRefresh.png" />
+      <Asset Guid="eb5f24a89150c3b4a9df98435e25ccb7" AssetBundleName="Models/monster/monster_fenfuchafu_01/monste_fenfuchafu_01.FBX" />
+      <Asset Guid="ec2ca4e87b6b71443aa1a677eab327f0" AssetBundleName="Models/monster/monster_baigunv_01/monster_baigunv_01.prefab" />
+      <Asset Guid="ec30b573a2fade9428c29bd8e16cf68b" AssetBundleName="Models/role_show/js2/js2.prefab" />
+      <Asset Guid="eec46eb30fbd0044488583ae7f3a3660" AssetBundleName="UI/Res/Particles.bytes" />
+      <Asset Guid="efed19a644f0afd478f7f3866c6d33ec" AssetBundleName="Models/monster/monster_taohuayao_01/monster_taohuayao_01.prefab" />
+      <Asset Guid="f4f58a0f5e21d4f4c995b224b76ff08f" AssetBundleName="Models/role/role_guiwuzhe_01/role_guiwuzhe_03.prefab" />
+      <Asset Guid="f552ffab25f30864399c6dee81ae8a5f" AssetBundleName="Models/role_show/role_xinshou_03_show/xinshou_03_show.prefab" />
+      <Asset Guid="f5cc453d6938dfd42bfdb756dc5274a2" AssetBundleName="Models/monster/monster_shengling_01/monste_shengling_01.prefab" />
+      <Asset Guid="f6099ecaca747a141ab3c8900c93e98d" AssetBundleName="Models/monster/monster_renyu_01/monste_renyu_01.prefab" />
+      <Asset Guid="f914a9e6804f14246839dfc904756a26" AssetBundleName="Models/Prefabs/chuxinzhe_03.prefab" />
+      <Asset Guid="fa2ce52d8ac52a64a973032ed090e1c2" AssetBundleName="Models/role/role_anpeiqingming/zhandou_anpeiqingming_01.FBX" />
+      <Asset Guid="fb0cd890f8220c046a59fc8bf590622e" AssetBundleName="Models/role/role_anpeiqingming/zhandou_anpeiqingming.FBX" />
+      <Asset Guid="fb0d683c0e586ad49a14ce1c87ff697d" AssetBundleName="Models/Prefabs/chuxinzhe_02.prefab" />
+      <Asset Guid="fc43439e4b365f347b6e422f24f16726" AssetBundleName="Models/role/role_zhandouqingxingdegn_01/zhandou_qingxingdeng_01.FBX" />
+      <Asset Guid="ff366baf64059db41ae9bf5004e59c9e" AssetBundleName="Models/role/chuxinzhe_01/chuxinzhe_02.prefab" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>

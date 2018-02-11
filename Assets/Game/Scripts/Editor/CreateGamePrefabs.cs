@@ -80,6 +80,9 @@ namespace Game.Editor
             UI.GetOrAddComponent<UIComponent>();
             UI.transform.SetParent(Base.transform, false);
 
+            GameObject UIRoot = new GameObject("UIRoot");
+            UIRoot.GetOrAddComponent<UIRoot>();
+
             GameObject WebRequest = new GameObject("WebRequest");
             WebRequest.GetOrAddComponent<WebRequestComponent>();
             WebRequest.transform.SetParent(Base.transform, false);

@@ -237,9 +237,10 @@ namespace FairyGUI
 		/// <returns>UIPackage</returns>
 		public static UIPackage AddPackage(string descFilePath)
 		{
-			return AddPackage(descFilePath, (string name, string extension, System.Type type) => {
-                return UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Game/BuildResources/" + name + extension, type);
-            });
+            //return AddPackage(descFilePath, (string name, string extension, System.Type type) => {
+            //             return UnityEditor.AssetDatabase.LoadAssetAtPath("Assets/Game/BuildResources/" + name + extension, type);
+            //         });
+            return null;
 		}
 
 		/// <summary>

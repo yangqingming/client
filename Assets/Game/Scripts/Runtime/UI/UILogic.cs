@@ -9,7 +9,82 @@ namespace Game.Runtime
     {
 
         private FairyGUIAssets fairyGUIAssets = null;
-        private GComponent uiView = null;
+        private GComponent _mainView = null;
+
+        protected override void OnInit(object userData)
+        {
+            base.OnInit(userData);
+
+            fairyGUIAssets = gameObject.GetComponent<FairyGUIAssets>();
+
+            string descName = System.IO.Path.GetFileNameWithoutExtension(this.UIForm.UIFormAssetName);
+
+            TextAsset desc = GetUIAsset<TextAsset>(descName);
+
+            UIPackage package = UIPackage.AddPackage(desc.bytes, descName,
+                (string name, string extension, System.Type type) =>
+                {
+                    return GetUIAsset(name, type);
+                }
+            );
+
+            _mainView = UIPackage.CreateObject(descName, "Main").asCom;
+            GRoot.inst.AddChild(_mainView);
+        }
+
+        protected override void OnOpen(object userData)
+        {
+            base.OnOpen(userData);
+
+            _mainView.GetChild("bagBtn").asButton.onClick.Add(delegate (EventContext context)
+            {
+                GameEntry.Shutdown(ShutdownType.Restart);
+                //GRoot.inst.AddChild(UIPackage.CreateObject("Bag", "BagWin").asCom);
+            });
+        }
+
+        protected override void OnClose(object userData)
+        {
+            base.OnClose(userData);
+            _mainView.Dispose();
+        }
+
+        protected override void OnPause()
+        {
+            base.OnPause();
+        }
+
+        protected override void OnCover()
+        {
+            base.OnCover();
+        }
+
+        protected override void OnDepthChanged(int uiGroupDepth, int depthInUIGroup)
+        {
+            base.OnDepthChanged(uiGroupDepth, depthInUIGroup);
+        }
+
+        protected override void OnRefocus(object userData)
+        {
+            base.OnRefocus(userData);
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+        }
+
+        protected override void OnReveal()
+        {
+            base.OnReveal();
+        }
+
+        protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
+        {
+            base.OnUpdate(elapseSeconds, realElapseSeconds);
+        }
+
+        //===================================================================
         private Object GetUIAsset(string assetName, System.Type type)
         {
             if (type == typeof(TextAsset))
@@ -55,74 +130,6 @@ namespace Game.Runtime
         {
             return GetUIAsset(assetName, typeof(T)) as T;
         }
-
-
-        protected override void OnInit(object userData)
-        {
-            base.OnInit(userData);
-
-            fairyGUIAssets = gameObject.GetComponent<FairyGUIAssets>();
-
-            string descName = System.IO.Path.GetFileNameWithoutExtension(this.UIForm.UIFormAssetName);
-
-            TextAsset desc = GetUIAsset<TextAsset>(descName);
-
-            UIPackage package = UIPackage.AddPackage(desc.bytes, descName,
-                (string name, string extension, System.Type type) =>
-                {
-                    return GetUIAsset(name, type);
-                }
-            );
-            uiView = UIPackage.CreateObject(descName, "Main").asCom;
-            GRoot.inst.AddChild(uiView);
-        }
-
-        protected override void OnOpen(object userData)
-        {
-            base.OnOpen(userData);
-        }
-
-        protected override void OnClose(object userData)
-        {
-            base.OnClose(userData);
-            uiView.Dispose();
-        }
-
-        protected override void OnPause()
-        {
-            base.OnPause();
-        }
-
-        protected override void OnCover()
-        {
-            base.OnCover();
-        }
-
-        protected override void OnDepthChanged(int uiGroupDepth, int depthInUIGroup)
-        {
-            base.OnDepthChanged(uiGroupDepth, depthInUIGroup);
-        }
-
-        protected override void OnRefocus(object userData)
-        {
-            base.OnRefocus(userData);
-        }
-
-        protected override void OnResume()
-        {
-            base.OnResume();
-        }
-
-        protected override void OnReveal()
-        {
-            base.OnReveal();
-        }
-
-        protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
-        {
-            base.OnUpdate(elapseSeconds, realElapseSeconds);
-        }
-
     }
 
 }
