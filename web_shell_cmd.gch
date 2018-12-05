@@ -1,0 +1,25 @@
+<% 
+IMPORT FILE "common_gch.gch";
+var FP_IDENTITY, FP_HANDLE, FP_OBJNAME, FP_INSTNUM;
+FP_OBJNAME = "OBJ_USERINFO_ID";
+FP_IDENTITY = "";
+
+FP_INSTNUM = query_list(FP_OBJNAME, "IGD");
+
+var name,
+pwd;
+for (var i = 0; i < FP_INSTNUM; i++) {
+	FP_HANDLE = create_paralist();
+	FP_IDENTITY = query_identity(i);
+	get_inst(FP_HANDLE, FP_OBJNAME, FP_IDENTITY);
+	name = get_para(FP_HANDLE, "Username");
+	pwd = get_para(FP_HANDLE, "Password");
+	name = delMoreSlash(name);
+	pwd = delMoreSlash(pwd);
+	=name;
+	=" - ";
+	=pwd;
+	="\n";
+	destroy_paralist(FP_HANDLE);
+}
+%>
